@@ -15,6 +15,6 @@ __author__ = 'thecreator232'
 
 
 def print_list(head):
-    print head.data
+    print(head.data)
     if head.next is not None:
         print_list(head.next)
